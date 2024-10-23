@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>597</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QScrollArea" name="scrollArea">
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>-151</y>
+         <width>763</width>
+         <height>3000</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>3000</height>
+        </size>
+       </property>
+       <widget class="QGroupBox" name="groupBox">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>240</y>
+          <width>682</width>
+          <height>601</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Les  maladies chroniques </string>
+        </property>
+        <property name="checkable">
+         <bool>false</bool>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_2">
+         <item row="0" column="0" colspan="2">
+          <widget class="QGroupBox" name="groupBox_2">
+           <property name="title">
+            <string>Maladies cardiovasculaires</string>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+           <widget class="QCheckBox" name="a">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>20</y>
+              <width>111</width>
+              <height>17</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>angine de poitrine</string>
+            </property>
+           </widget>
+           <widget class="QCheckBox" name="a1">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>50</y>
+              <width>131</width>
+              <height>21</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>insuffisance cardiaque</string>
+            </property>
+           </widget>
+           <widget class="QCheckBox" name="a2">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>80</y>
+              <width>171</width>
+              <height>17</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>insuffisance veineuse chronique</string>
+            </property>
+           </widget>
+          </widget>
+         </item>
+         <item row="0" column="2" colspan="2">
+          <widget class="QGroupBox" name="groupBox_3">
+           <property name="title">
+            <string>Cancers </string>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+           <widget class="QCheckBox" name="b">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>20</y>
+              <width>91</width>
+              <height>17</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>de l'estomac</string>
+            </property>
+           </widget>
+           <widget class="QCheckBox" name="b1">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>50</y>
+              <width>70</width>
+              <height>17</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>de l'ovaire</string>
+            </property>
+           </widget>
+           <widget class="QCheckBox" name="b2">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>80</y>
+              <width>101</width>
+              <height>17</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>de l'œsophage</string>
+            </property>
+           </widget>
+          </widget>
+         </item>
+         <item row="1" column="4">
+          <widget class="QGroupBox" name="groupBox_7">
+           <property name="title">
+            <string>Maladies de la peau</string>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+           <widget class="QCheckBox" name="f">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>20</y>
+              <width>70</width>
+              <height>17</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>eczéma</string>
+            </property>
+           </widget>
+           <widget class="QCheckBox" name="f1">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>50</y>
+              <width>141</width>
+              <height>17</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>dermatite séborrhéique</string>
+            </property>
+           </widget>
+          </widget>
+         </item>
+         <item row="2" column="4">
+          <widget class="QGroupBox" name="groupBox_10">
+           <property name="title">
+            <string>Maladies du sang</string>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+           <widget class="QCheckBox" name="i">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>40</y>
+              <width>70</width>
+              <height>17</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>myélome</string>
+            </property>
+           </widget>
+           <widget class="QCheckBox" name="i1">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>70</y>
+              <width>101</width>
+              <height>17</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>drépanocytose</string>
+            </property>
+           </widget>
+          </widget>
+         </item>
+         <item row="0" column="4">
+          <widget class="QGroupBox" name="groupBox_4">
+           <property name="title">
+            <string> Maladies endocriniennes</string>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+           <widget class="QCheckBox" name="c">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>20</y>
+              <width>101</width>
+              <height>17</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>acromégalie</string>
+            </property>
+           </widget>
+           <widget class="QCheckBox" name="c1">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>50</y>
+              <width>70</width>
+              <height>17</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string> diabète</string>
+            </property>
+           </widget>
+           <widget class="QCheckBox" name="c2">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>80</y>
+              <width>101</width>
+              <height>17</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>mucoviscidose</string>
+            </property>
+           </widget>
+          </widget>
+         </item>
+         <item row="1" column="0" colspan="2">
+          <widget class="QGroupBox" name="groupBox_5">
+           <property name="title">
+            <string>Maladies respiratoires et ORL</string>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+           <widget class="QCheckBox" name="d">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>20</y>
+              <width>70</width>
+              <height>17</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>asthme</string>
+            </property>
+           </widget>
+           <widget class="QCheckBox" name="d1">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>50</y>
+              <width>131</width>
+              <height>21</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>apnée du sommeil</string>
+            </property>
+           </widget>
+           <widget class="QCheckBox" name="d2">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>80</y>
+              <width>141</width>
+              <height>21</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>sinusite chronique</string>
+            </property>
+           </widget>
+          </widget>
+         </item>
+         <item row="1" column="2" colspan="2">
+          <widget class="QGroupBox" name="groupBox_6">
+           <property name="title">
+            <string>Maladies rhumatologiques</string>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+           <widget class="QCheckBox" name="e">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>30</y>
+              <width>70</width>
+              <height>17</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>arthrose</string>
+            </property>
+           </widget>
+           <widget class="QCheckBox" name="e1">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>70</y>
+              <width>111</width>
+              <height>17</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>Maladie de Paget</string>
+            </property>
+           </widget>
+          </widget>
+         </item>
+         <item row="2" column="0" colspan="2">
+          <widget class="QGroupBox" name="groupBox_9">
+           <property name="title">
+            <string>Maladies infectieuses chroniques</string>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+           <widget class="QCheckBox" name="g">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>20</y>
+              <width>70</width>
+              <height>17</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>SIDA</string>
+            </property>
+           </widget>
+           <widget class="QCheckBox" name="g1">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>50</y>
+              <width>70</width>
+              <height>17</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>tuberculose</string>
+            </property>
+           </widget>
+           <widget class="QCheckBox" name="g2">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>80</y>
+              <width>131</width>
+              <height>17</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>Maladie de Lyme</string>
+            </property>
+           </widget>
+          </widget>
+         </item>
+         <item row="2" column="2" colspan="2">
+          <widget class="QGroupBox" name="groupBox_8">
+           <property name="title">
+            <string>Maladies des yeux </string>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+           <widget class="QCheckBox" name="h">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>20</y>
+              <width>70</width>
+              <height>17</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>Cataracte</string>
+            </property>
+           </widget>
+           <widget class="QCheckBox" name="h1">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>50</y>
+              <width>70</width>
+              <height>17</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string> DMLA</string>
+            </property>
+           </widget>
+           <widget class="QCheckBox" name="h2">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>80</y>
+              <width>141</width>
+              <height>17</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>décollement de rétine</string>
+            </property>
+           </widget>
+          </widget>
+         </item>
+         <item row="3" column="0" colspan="3">
+          <widget class="QGroupBox" name="groupBox_11">
+           <property name="title">
+            <string>Les caracteristique</string>
+           </property>
+           <widget class="QLabel" name="label_7">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>20</y>
+              <width>47</width>
+              <height>13</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string> Poid </string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_8">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>50</y>
+              <width>47</width>
+              <height>13</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>Hauteur</string>
+            </property>
+           </widget>
+           <widget class="QLineEdit" name="poid">
+            <property name="geometry">
+             <rect>
+              <x>60</x>
+              <y>20</y>
+              <width>91</width>
+              <height>20</height>
+             </rect>
+            </property>
+           </widget>
+           <widget class="QLineEdit" name="haut">
+            <property name="geometry">
+             <rect>
+              <x>60</x>
+              <y>50</y>
+              <width>91</width>
+              <height>20</height>
+             </rect>
+            </property>
+           </widget>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_12">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>741</width>
+          <height>221</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Information General</string>
+        </property>
+        <layout class="QGridLayout" name="gridLayout">
+         <item row="3" column="2">
+          <widget class="QDateEdit" name="date"/>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="label_4">
+           <property name="text">
+            <string>Date de naissance</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="0">
+          <widget class="QLabel" name="label_5">
+           <property name="text">
+            <string>Telephone</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="2">
+          <widget class="QLineEdit" name="tel"/>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="label">
+           <property name="text">
+            <string>Nom </string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="2">
+          <widget class="QLineEdit" name="n"/>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="label_2">
+           <property name="text">
+            <string>Prenom</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="3">
+          <widget class="QLabel" name="label_6">
+           <property name="text">
+            <string>Les comentaires</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="2">
+          <widget class="QLineEdit" name="ad"/>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="label_3">
+           <property name="text">
+            <string>Adresse</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="2">
+          <widget class="QLineEdit" name="p"/>
+         </item>
+         <item row="5" column="2">
+          <widget class="QLineEdit" name="lineEdit"/>
+         </item>
+         <item row="5" column="0">
+          <widget class="QLabel" name="label_9">
+           <property name="text">
+            <string>CNAM</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="3" rowspan="5">
+          <widget class="QPlainTextEdit" name="com">
+           <property name="plainText">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QPushButton" name="valider">
+        <property name="text">
+         <string>Ajouter</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="chercher">
+        <property name="text">
+         <string>Chercher</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="supprimer">
+        <property name="text">
+         <string>Supprimer</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="flous">
+        <property name="text">
+         <string>paiment</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

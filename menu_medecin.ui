@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>343</width>
+    <height>231</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Menu</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>343</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuPatient">
+    <property name="title">
+     <string>Patient</string>
+    </property>
+    <addaction name="actionAjouter"/>
+    <addaction name="actionModifier"/>
+    <addaction name="actionSupprimer"/>
+   </widget>
+   <widget class="QMenu" name="menuMaladies_Chroniques">
+    <property name="title">
+     <string>Maladies Chroniques</string>
+    </property>
+    <widget class="QMenu" name="menuCategories">
+     <property name="title">
+      <string>Categories</string>
+     </property>
+     <widget class="QMenu" name="menuMaladies">
+      <property name="title">
+       <string>Maladies</string>
+      </property>
+      <addaction name="actionAjouter_3"/>
+      <addaction name="actionSupprimer_3"/>
+     </widget>
+     <addaction name="menuMaladies"/>
+     <addaction name="actionAjouter_2"/>
+     <addaction name="actionSupprimer_2"/>
+    </widget>
+    <addaction name="actionAffichage"/>
+    <addaction name="menuCategories"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Rendez vous</string>
+    </property>
+    <addaction name="actionGestion_rdv"/>
+   </widget>
+   <addaction name="menuPatient"/>
+   <addaction name="menuMaladies_Chroniques"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionAjouter">
+   <property name="icon">
+    <iconset>
+     <normaloff>Camera Roll/ajouterr.jpg</normaloff>Camera Roll/ajouterr.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>Ajouter</string>
+   </property>
+  </action>
+  <action name="actionModifier">
+   <property name="icon">
+    <iconset>
+     <normaloff>Camera Roll/modifier.jpg</normaloff>Camera Roll/modifier.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>Modifier</string>
+   </property>
+  </action>
+  <action name="actionSupprimer">
+   <property name="icon">
+    <iconset>
+     <normaloff>Camera Roll/supprimer.png</normaloff>Camera Roll/supprimer.png</iconset>
+   </property>
+   <property name="text">
+    <string>Supprimer</string>
+   </property>
+  </action>
+  <action name="actionAjouter_2">
+   <property name="icon">
+    <iconset>
+     <normaloff>Camera Roll/ajouu.jpg</normaloff>Camera Roll/ajouu.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>Ajouter</string>
+   </property>
+  </action>
+  <action name="actionSupprimer_2">
+   <property name="icon">
+    <iconset>
+     <normaloff>Camera Roll/suppp.jpg</normaloff>Camera Roll/suppp.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>Supprimer</string>
+   </property>
+  </action>
+  <action name="actionAjouter_3">
+   <property name="icon">
+    <iconset>
+     <normaloff>Camera Roll/ajou.jpg</normaloff>Camera Roll/ajou.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>Ajouter</string>
+   </property>
+  </action>
+  <action name="actionSupprimer_3">
+   <property name="icon">
+    <iconset>
+     <normaloff>Camera Roll/su.jpg</normaloff>Camera Roll/su.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>Supprimer</string>
+   </property>
+  </action>
+  <action name="actionAffichage">
+   <property name="text">
+    <string>Affichage</string>
+   </property>
+  </action>
+  <action name="actionGestion_rdv">
+   <property name="text">
+    <string>Gestion rdv</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="Camera Roll/user.qrc"/>
+ </resources>
+ <connections/>
+</ui>
